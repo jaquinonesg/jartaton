@@ -56,7 +56,7 @@ def shortestPath(G,start,end):
     Path = []
     while 1:
         Path.append(end)
-        if end == start: break
+        if end == start: break``
         end = P[end]
     Path.reverse()
     return Path

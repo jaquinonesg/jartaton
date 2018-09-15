@@ -9875,5 +9875,9 @@ body {
   height: 900px;
   background-color: black; }
 
+.dropdowns-bar {
+  text-align: center;
+  background-color: black; }
+
 html body .app.flex-row.align-items-center {
   height: 100vh; }
