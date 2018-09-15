@@ -1,0 +1,13 @@
+*.pyc
+*.DS_store
+*.py~
+*.*~
+.idea
+*.vscode
+*__pycache__
+*__init__.py
+*/migrations/
+front/node_modules
+back/apps/*/migrations/
+back/media
+venv.sh
