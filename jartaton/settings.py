@@ -74,14 +74,13 @@ WSGI_APPLICATION = 'jartaton.wsgi.application'
 # https://docs.djangoproject.com/en/2.0/ref/settings/#databases
 
 DATABASES = {
-    # 'default': {},
-    # 'postg': {
-    #     'NAME': 'user_data',
-    #     'ENGINE': 'django.db.backends.mysql',
-    #     'USER': 'mysql_user',
-    #     'PASSWORD': 'superS3cret'
-    # },
     'default': {
+        'NAME': 'jartatonP',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'USER': 'postgres',
+        'PASSWORD': 'admin'
+    },
+    'jartatonM': {
         'NAME': 'jartatonmongo',
         'ENGINE': 'djongo',
         # 'USER': '',
