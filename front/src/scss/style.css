@@ -9869,5 +9869,11 @@ body {
 .app-header .navbar-nav .dropdown-menu-right {
   right: auto; }
 
+.map-map {
+  display: absolute;
+  width: 900px;
+  height: 900px;
+  background-color: black; }
+
 html body .app.flex-row.align-items-center {
   height: 100vh; }

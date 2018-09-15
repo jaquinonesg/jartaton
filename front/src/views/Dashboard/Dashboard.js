@@ -24,6 +24,8 @@ import Widget03 from '../../views/Widgets/Widget03'
 import { CustomTooltips } from '@coreui/coreui-plugin-chartjs-custom-tooltips';
 import { getStyle, hexToRgba } from '@coreui/coreui/dist/js/coreui-utilities'
 
+import Map from '../../components/Map/Map';
+
 const brandPrimary = getStyle('--primary')
 const brandSuccess = getStyle('--success')
 const brandInfo = getStyle('--info')
@@ -489,6 +491,7 @@ class Dashboard extends Component {
                         </CardHeader>
                         <CardBody>
                             <Row>
+                                <Map />
                             </Row>
                         </CardBody>
                     </Card>
