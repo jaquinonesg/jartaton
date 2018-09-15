@@ -79,16 +79,19 @@ WSGI_APPLICATION = 'jartaton.wsgi.application'
 
 DATABASES = {
     'default': {
-        'NAME': 'jartatonP',
+        'NAME': 'storekeepersdb',
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'USER': 'postgres',
-        'PASSWORD': 'admin'
+        'USER': 'hackathonpostgres',
+        'PASSWORD': 'hackathon2018rappipsql',
+        'HOST': 'postgres-hackathon.eastus2.cloudapp.azure.com',
+        'PORT': '5432',
     },
     'jartatonM': {
-        'NAME': 'jartatonmongo',
         'ENGINE': 'djongo',
-        # 'USER': '',
-        # 'PASSWORD': ''
+        'USER': 'hackathonmongo',
+        'PASSWORD': 'hackathon2018rappimongodb',
+        'HOST': 'mongo-hackathon.eastus2.cloudapp.azure.com',
+        'PORT': '27017',
     }
 }
 
